@@ -1,6 +1,10 @@
 import { Devs } from "@utils/constants";
 import definePlugin, { OptionType } from "@utils/types";
+import { definePluginSettings, migratePluginSettings } from "@api/Settings";
 
+const pluginSettings = definePluginSettings({
+
+});
 
 export default definePlugin({
     name: "AccountSync",
